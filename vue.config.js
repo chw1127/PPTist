@@ -5,6 +5,7 @@ const StyleLintPlugin = require('stylelint-webpack-plugin')
 module.exports = {
   publicPath: './',
   css: {
+    extract: true,
     loaderOptions: {
       sass: {
         prependData: `
